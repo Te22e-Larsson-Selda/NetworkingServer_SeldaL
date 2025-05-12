@@ -9,7 +9,7 @@ public class NetworkingServer {
         Socket client;
 
         // Default port number we are going to use
-        int portnumber = 1111;
+        int portnumber = 1112;
         if (args.length > 1) {
             portnumber = Integer.parseInt(args[0]);
         }
